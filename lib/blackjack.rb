@@ -37,7 +37,9 @@ def hit?(int)
   if input = 's'
     return int
   elsif input = 'h'
-    return int += deal_card
+    int += deal_card
+    binding.pry
+    return int
   else
     invalid_command
     prompt_user
