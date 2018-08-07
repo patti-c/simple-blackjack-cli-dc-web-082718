@@ -38,7 +38,6 @@ def hit?(int)
     return int
   elsif input == 'h'
     int += deal_card
-    binding.pry
     return int
   else
     invalid_command
