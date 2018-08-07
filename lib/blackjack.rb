@@ -35,7 +35,7 @@ def hit?(int)
   if input = 's'
     return int
   elsif input = 'h'
-    int = int + deal_card
+    int += deal_card
     return int
   else
     invalid_command
