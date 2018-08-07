@@ -34,9 +34,9 @@ end
 def hit?(int)
   prompt_user
   input = get_user_input
-  if input = 's'
+  if input == 's'
     return int
-  elsif input = 'h'
+  elsif input == 'h'
     int += deal_card
     binding.pry
     return int
